@@ -18,6 +18,8 @@
 		F6938661299A2B2600FA9203 /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6938660299A2B2600FA9203 /* Little_LemonApp.swift */; };
 		F6938665299A2B2700FA9203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6938664299A2B2700FA9203 /* Assets.xcassets */; };
 		F6938668299A2B2700FA9203 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6938667299A2B2700FA9203 /* Preview Assets.xcassets */; };
+		F6976FCB29A5FFDD00FE557E /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6976FCA29A5FFDD00FE557E /* FetchedObjects.swift */; };
+		F6976FCD29A5FFE000FE557E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6976FCC29A5FFE000FE557E /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F6938660299A2B2600FA9203 /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
 		F6938664299A2B2700FA9203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6938667299A2B2700FA9203 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6976FCA29A5FFDD00FE557E /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		F6976FCC29A5FFE000FE557E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +75,11 @@
 				F65BF9F829A4F5B500575B9E /* CreateDishes.swift */,
 				F65BF9F329A4E3AD00575B9E /* DishRetriever.swift */,
 				F65BF9F529A4F11A00575B9E /* Model.xcdatamodeld */,
+				F6976FCC29A5FFE000FE557E /* Persistence.swift */,
 				F64DEA5529A2576100D36B51 /* Home.swift */,
 				F64DEA5729A257DC00D36B51 /* Menu.swift */,
 				F64DEA5929A3A05800D36B51 /* UserProfile.swift */,
+				F6976FCA29A5FFDD00FE557E /* FetchedObjects.swift */,
 				F6938664299A2B2700FA9203 /* Assets.xcassets */,
 				F6938666299A2B2700FA9203 /* Preview Content */,
 			);
@@ -158,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6976FCD29A5FFE000FE557E /* Persistence.swift in Sources */,
 				F64DEA5429A1A97F00D36B51 /* Onboarding.swift in Sources */,
 				F65BF9F429A4E3AD00575B9E /* DishRetriever.swift in Sources */,
 				F65BF9F929A4F5B500575B9E /* CreateDishes.swift in Sources */,
@@ -166,6 +173,7 @@
 				F65BF9F229A4DF8700575B9E /* MenuModel.swift in Sources */,
 				F64DEA5A29A3A05800D36B51 /* UserProfile.swift in Sources */,
 				F6938661299A2B2600FA9203 /* Little_LemonApp.swift in Sources */,
+				F6976FCB29A5FFDD00FE557E /* FetchedObjects.swift in Sources */,
 				F64DEA5829A257DC00D36B51 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

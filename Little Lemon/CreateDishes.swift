@@ -9,6 +9,13 @@ import Foundation
 import CoreData
 
 extension Dish {
+    
+    private static func request() -> NSFetchRequest<NSFetchRequestResult> {
+        let request: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: String(describing: Self.self))
+        request.returnsDistinctResults = true
+        request.returnsObjectsAsFaults = true
+        return request
+    }
 
     static func createDishesFrom(menuItems:[MenuItem], _ context: NSManagedObjectContext) {
         
@@ -17,12 +24,9 @@ extension Dish {
                 continue
             }
             let oneDish = Dish(context: context)
-            oneDish.name = menuItem.title
-            
-            if let price = Float(menuItem.price) {
-                oneDish.price = price
-            }
-            oneDish.description = menuItem.description
+            oneDish.title = menuItem.title
+            oneDish.price = menuItem.price
+//            oneDish.description = menuItem.description
             oneDish.image = menuItem.image
             
             

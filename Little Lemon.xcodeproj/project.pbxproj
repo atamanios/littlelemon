@@ -10,7 +10,6 @@
 		F61120D429AB94A100C030AF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61120D329AB94A100C030AF /* Colors.xcassets */; };
 		F61120DC29AB9A3500C030AF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61120DB29AB9A3500C030AF /* Colors.swift */; };
 		F633EFF729ACAEDF00E23687 /* TypeFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633EFF629ACAEDF00E23687 /* TypeFace.swift */; };
-		F633EFF929ACB13F00E23687 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633EFF829ACB13F00E23687 /* Demo.swift */; };
 		F633EFFB29ACB7D000E23687 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633EFFA29ACB7D000E23687 /* MarkaziText-Medium.ttf */; };
 		F633EFFD29ACB7D600E23687 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633EFFC29ACB7D600E23687 /* MarkaziText-Regular.ttf */; };
 		F633EFFF29ACB7FB00E23687 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633EFFE29ACB7FB00E23687 /* Karla-Medium.ttf */; };
@@ -38,7 +37,6 @@
 		F61120DB29AB9A3500C030AF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F633EFF529ACAC7600E23687 /* Little-Lemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Little-Lemon-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F633EFF629ACAEDF00E23687 /* TypeFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeFace.swift; sourceTree = "<group>"; };
-		F633EFF829ACB13F00E23687 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 		F633EFFA29ACB7D000E23687 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
 		F633EFFC29ACB7D600E23687 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
 		F633EFFE29ACB7FB00E23687 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 		F6938654299A2B2600FA9203 = {
 			isa = PBXGroup;
 			children = (
-				F633EFF829ACB13F00E23687 /* Demo.swift */,
 				F693865F299A2B2600FA9203 /* Little Lemon */,
 				F693865E299A2B2600FA9203 /* Products */,
 			);
@@ -218,7 +215,6 @@
 				F61120DC29AB9A3500C030AF /* Colors.swift in Sources */,
 				F6976FCD29A5FFE000FE557E /* Persistence.swift in Sources */,
 				F64DEA5429A1A97F00D36B51 /* Onboarding.swift in Sources */,
-				F633EFF929ACB13F00E23687 /* Demo.swift in Sources */,
 				F65BF9F429A4E3AD00575B9E /* DishRetriever.swift in Sources */,
 				F633EFF729ACAEDF00E23687 /* TypeFace.swift in Sources */,
 				F65BF9F929A4F5B500575B9E /* CreateDishes.swift in Sources */,

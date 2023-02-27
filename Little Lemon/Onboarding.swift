@@ -27,9 +27,28 @@ struct Onboarding: View {
             
             VStack {
                 
-                TextField("First Name", text: $firstName)
-                TextField("Last Name", text: $lastName)
-                TextField("Email", text: $email)
+                HeaderAndHero()
+                
+                VStack(alignment: .leading) {
+                    
+                    Text("First Name *").foregroundColor(.secondaryDarkGray)
+                    TextField("", text: $firstName, prompt: Text("Tilly"))
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 10).strokeBorder(lineWidth: 1).foregroundColor(.gray))
+            
+                    Text("Last Name *")
+                    TextField("", text: $lastName, prompt: Text("Doe"))
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 10).strokeBorder(lineWidth: 1).foregroundColor(.gray))
+                    
+                    Text("Email *")
+                    TextField("Email", text: $email, prompt: Text(verbatim: "tillydoe@example.com"))
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 10).strokeBorder(lineWidth: 1).foregroundColor(.gray))
+                    
+                }
+                .padding(.leading)
+                .padding(.trailing)
                 
                 Button(action: {
                     //                TODO: Validate email format

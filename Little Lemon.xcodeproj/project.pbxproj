@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61120D429AB94A100C030AF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61120D329AB94A100C030AF /* Colors.xcassets */; };
+		F61120DC29AB9A3500C030AF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61120DB29AB9A3500C030AF /* Colors.swift */; };
+		F633EFF729ACAEDF00E23687 /* TypeFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633EFF629ACAEDF00E23687 /* TypeFace.swift */; };
+		F633EFF929ACB13F00E23687 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633EFF829ACB13F00E23687 /* Demo.swift */; };
+		F633EFFB29ACB7D000E23687 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633EFFA29ACB7D000E23687 /* MarkaziText-Medium.ttf */; };
+		F633EFFD29ACB7D600E23687 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633EFFC29ACB7D600E23687 /* MarkaziText-Regular.ttf */; };
+		F633EFFF29ACB7FB00E23687 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633EFFE29ACB7FB00E23687 /* Karla-Medium.ttf */; };
+		F633F00129ACB80A00E23687 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633F00029ACB80A00E23687 /* Karla-ExtraBold.ttf */; };
+		F633F00329ACB82400E23687 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633F00229ACB82400E23687 /* Karla-Bold.ttf */; };
+		F633F00529ACB82F00E23687 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633F00429ACB82F00E23687 /* Karla-Regular.ttf */; };
+		F633F00729ACCBD800E23687 /* HeaderAndHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633F00629ACCBD800E23687 /* HeaderAndHero.swift */; };
 		F64DEA5429A1A97F00D36B51 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64DEA5329A1A97F00D36B51 /* Onboarding.swift */; };
 		F64DEA5629A2576100D36B51 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64DEA5529A2576100D36B51 /* Home.swift */; };
 		F64DEA5829A257DC00D36B51 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64DEA5729A257DC00D36B51 /* Menu.swift */; };
@@ -23,6 +34,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61120D329AB94A100C030AF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F61120DB29AB9A3500C030AF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F633EFF529ACAC7600E23687 /* Little-Lemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Little-Lemon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F633EFF629ACAEDF00E23687 /* TypeFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeFace.swift; sourceTree = "<group>"; };
+		F633EFF829ACB13F00E23687 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		F633EFFA29ACB7D000E23687 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		F633EFFC29ACB7D600E23687 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
+		F633EFFE29ACB7FB00E23687 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		F633F00029ACB80A00E23687 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F633F00229ACB82400E23687 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		F633F00429ACB82F00E23687 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		F633F00629ACCBD800E23687 /* HeaderAndHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAndHero.swift; sourceTree = "<group>"; };
 		F64DEA5329A1A97F00D36B51 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		F64DEA5529A2576100D36B51 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F64DEA5729A257DC00D36B51 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -50,9 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F61120E129ABA21600C030AF /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				F633F00229ACB82400E23687 /* Karla-Bold.ttf */,
+				F633F00029ACB80A00E23687 /* Karla-ExtraBold.ttf */,
+				F633EFFE29ACB7FB00E23687 /* Karla-Medium.ttf */,
+				F633EFFC29ACB7D600E23687 /* MarkaziText-Regular.ttf */,
+				F633EFFA29ACB7D000E23687 /* MarkaziText-Medium.ttf */,
+				F633F00429ACB82F00E23687 /* Karla-Regular.ttf */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		F6938654299A2B2600FA9203 = {
 			isa = PBXGroup;
 			children = (
+				F633EFF829ACB13F00E23687 /* Demo.swift */,
 				F693865F299A2B2600FA9203 /* Little Lemon */,
 				F693865E299A2B2600FA9203 /* Products */,
 			);
@@ -69,18 +106,24 @@
 		F693865F299A2B2600FA9203 /* Little Lemon */ = {
 			isa = PBXGroup;
 			children = (
+				F633EFF529ACAC7600E23687 /* Little-Lemon-Info.plist */,
 				F6976FCE29A61E0500FE557E /* ExampleDatabase.xcdatamodeld */,
 				F6938660299A2B2600FA9203 /* Little_LemonApp.swift */,
 				F64DEA5329A1A97F00D36B51 /* Onboarding.swift */,
+				F633F00629ACCBD800E23687 /* HeaderAndHero.swift */,
 				F65BF9F129A4DF8700575B9E /* MenuModel.swift */,
 				F65BF9F829A4F5B500575B9E /* CreateDishes.swift */,
+				F61120DB29AB9A3500C030AF /* Colors.swift */,
 				F65BF9F329A4E3AD00575B9E /* DishRetriever.swift */,
 				F6976FCC29A5FFE000FE557E /* Persistence.swift */,
 				F64DEA5529A2576100D36B51 /* Home.swift */,
 				F64DEA5729A257DC00D36B51 /* Menu.swift */,
 				F64DEA5929A3A05800D36B51 /* UserProfile.swift */,
 				F6976FCA29A5FFDD00FE557E /* FetchedObjects.swift */,
+				F633EFF629ACAEDF00E23687 /* TypeFace.swift */,
 				F6938664299A2B2700FA9203 /* Assets.xcassets */,
+				F61120D329AB94A100C030AF /* Colors.xcassets */,
+				F61120E129ABA21600C030AF /* Text */,
 				F6938666299A2B2700FA9203 /* Preview Content */,
 			);
 			path = "Little Lemon";
@@ -152,8 +195,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F633EFFD29ACB7D600E23687 /* MarkaziText-Regular.ttf in Resources */,
+				F633EFFF29ACB7FB00E23687 /* Karla-Medium.ttf in Resources */,
+				F633EFFB29ACB7D000E23687 /* MarkaziText-Medium.ttf in Resources */,
+				F633F00329ACB82400E23687 /* Karla-Bold.ttf in Resources */,
+				F61120D429AB94A100C030AF /* Colors.xcassets in Resources */,
+				F633F00529ACB82F00E23687 /* Karla-Regular.ttf in Resources */,
 				F6938668299A2B2700FA9203 /* Preview Assets.xcassets in Resources */,
 				F6938665299A2B2700FA9203 /* Assets.xcassets in Resources */,
+				F633F00129ACB80A00E23687 /* Karla-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,10 +215,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6976FD029A61E0500FE557E /* ExampleDatabase.xcdatamodeld in Sources */,
+				F61120DC29AB9A3500C030AF /* Colors.swift in Sources */,
 				F6976FCD29A5FFE000FE557E /* Persistence.swift in Sources */,
 				F64DEA5429A1A97F00D36B51 /* Onboarding.swift in Sources */,
+				F633EFF929ACB13F00E23687 /* Demo.swift in Sources */,
 				F65BF9F429A4E3AD00575B9E /* DishRetriever.swift in Sources */,
+				F633EFF729ACAEDF00E23687 /* TypeFace.swift in Sources */,
 				F65BF9F929A4F5B500575B9E /* CreateDishes.swift in Sources */,
+				F633F00729ACCBD800E23687 /* HeaderAndHero.swift in Sources */,
 				F64DEA5629A2576100D36B51 /* Home.swift in Sources */,
 				F65BF9F229A4DF8700575B9E /* MenuModel.swift in Sources */,
 				F64DEA5A29A3A05800D36B51 /* UserProfile.swift in Sources */,
@@ -306,6 +360,7 @@
 				DEVELOPMENT_TEAM = X82WCW2JWZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,6 +393,7 @@
 				DEVELOPMENT_TEAM = X82WCW2JWZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

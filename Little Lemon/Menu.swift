@@ -31,7 +31,7 @@ struct Menu: View {
 
                         HStack {
 
-                            Text("\(dish.title ?? "NA") \(dish.price ?? "NA") \(dish.category ?? "NA")")
+                            Text("\(dish.title ?? "NA") \(dish.price ?? "NA") \(dish.category ?? "NA") \(dish.description)")
 
                             AsyncImage(url: URL(string: dish.image!), content: { image in
                                 image.resizable().scaledToFit()
@@ -90,6 +90,7 @@ struct Menu: View {
     
     func buildSortDescriptors() -> [NSSortDescriptor] {
         let sorter:NSSortDescriptor = NSSortDescriptor(key: "title", ascending: true, selector: #selector(NSString.localizedStandardCompare))
+        
 
         return [sorter]
     }

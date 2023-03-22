@@ -9,6 +9,7 @@ import SwiftUI
 
 extension Font {
     
+    
     enum MarkaziWeight: String {
         
         case regular = "Regular"
@@ -25,19 +26,16 @@ extension Font {
         
     }
     
-    
     static func markazi(size: CGFloat, _ weight: MarkaziWeight = .regular) -> Font {
-        
-        
-        return Font.custom("MarkaziText-" + weight.rawValue + ".ttf", size: size)
-        
+
+        return .custom("MarkaziText-" + weight.rawValue, size: size)
+
     }
-    
-    static func karla(size: CGFloat, _ weight: KarlaWeight) -> Font {
-        
-       
-        return Font.custom("Karla-" + weight.rawValue + ".ttf", size: size)
-        
+
+    static func karla(size: CGFloat, _ weight: KarlaWeight = .regular) -> Font {
+
+        return .custom("Karla-" + weight.rawValue, size: size)
+
     }
     
 }

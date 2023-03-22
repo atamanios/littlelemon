@@ -12,11 +12,18 @@ struct JSONMenu: Codable {
 }
 
 struct MenuItem: Codable, Identifiable {
+    
     var id: Int
     let title: String
     let price: String
-    let description: String
+    let itemDescription: String
     let image: String
     let category: String
     
+    enum CodingKeys: String, CodingKey {
+        
+        case itemDescription = "description"
+        case id, title, price, image, category
+        
+    }
 }

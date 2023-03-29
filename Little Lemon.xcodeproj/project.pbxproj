@@ -16,6 +16,7 @@
 		F633F00129ACB80A00E23687 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633F00029ACB80A00E23687 /* Karla-ExtraBold.ttf */; };
 		F633F00329ACB82400E23687 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633F00229ACB82400E23687 /* Karla-Bold.ttf */; };
 		F633F00529ACB82F00E23687 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F633F00429ACB82F00E23687 /* Karla-Regular.ttf */; };
+		F63C4F5D29D4428000758A71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F63C4F5C29D4428000758A71 /* README.md */; };
 		F64DEA5429A1A97F00D36B51 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64DEA5329A1A97F00D36B51 /* Onboarding.swift */; };
 		F64DEA5829A257DC00D36B51 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64DEA5729A257DC00D36B51 /* Menu.swift */; };
 		F64DEA5A29A3A05800D36B51 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64DEA5929A3A05800D36B51 /* UserProfile.swift */; };
@@ -45,6 +46,7 @@
 		F633F00029ACB80A00E23687 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
 		F633F00229ACB82400E23687 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
 		F633F00429ACB82F00E23687 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		F63C4F5C29D4428000758A71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F64DEA5329A1A97F00D36B51 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		F64DEA5729A257DC00D36B51 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		F64DEA5929A3A05800D36B51 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		F6938654299A2B2600FA9203 = {
 			isa = PBXGroup;
 			children = (
+				F63C4F5C29D4428000758A71 /* README.md */,
 				F693865F299A2B2600FA9203 /* Little Lemon */,
 				F693865E299A2B2600FA9203 /* Products */,
 			);
@@ -240,6 +243,7 @@
 			files = (
 				F633EFFD29ACB7D600E23687 /* MarkaziText-Regular.ttf in Resources */,
 				F633EFFF29ACB7FB00E23687 /* Karla-Medium.ttf in Resources */,
+				F63C4F5D29D4428000758A71 /* README.md in Resources */,
 				F633EFFB29ACB7D000E23687 /* MarkaziText-Medium.ttf in Resources */,
 				F633F00329ACB82400E23687 /* Karla-Bold.ttf in Resources */,
 				F61120D429AB94A100C030AF /* Colors.xcassets in Resources */,
